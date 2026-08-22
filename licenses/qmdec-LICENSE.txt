@@ -1,0 +1,8 @@
+qmdec 0.2.0
+Project: https://github.com/Sophomoresty/qmdec
+
+The upstream README declares the project license as MIT. At packaging time the
+upstream repository did not include a separate LICENSE file. Refer to the
+upstream repository and its commit history for the authoritative declaration.
+
+MIT License reference: https://opensource.org/license/mit

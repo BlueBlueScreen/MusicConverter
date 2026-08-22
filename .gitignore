@@ -1,0 +1,21 @@
+# .NET / Visual Studio
+bin/
+obj/
+.vs/
+*.user
+*.suo
+*.pdb
+
+# Build and release outputs belong in GitHub Releases, not Git history
+publish/
+artifacts/
+*.exe
+*.msi
+*.zip
+
+# Local third-party runtimes
+tools/*.dll
+
+# Windows
+Thumbs.db
+Desktop.ini

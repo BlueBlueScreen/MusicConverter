@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AssemblyName>MusicConverter</AssemblyName>
+    <RootNamespace>MusicConverter</RootNamespace>
+    <ApplicationIcon>Assets\MusicConverter.ico</ApplicationIcon>
+    <Product>Music Converter</Product>
+    <Description>MGG 音乐解密与 MP3 转换工具</Description>
+    <Copyright>Copyright © 2026 Music Converter contributors</Copyright>
+    <Version>2.0.0</Version>
+    <IncludeSourceRevisionInInformationalVersion>false</IncludeSourceRevisionInInformationalVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="tools\README.txt" CopyToOutputDirectory="PreserveNewest" />
+    <Resource Include="Assets\Music.png" />
+    <Resource Include="Assets\MusicConverter.ico" />
+    <Resource Include="收款码.jpg" />
+  </ItemGroup>
+</Project>

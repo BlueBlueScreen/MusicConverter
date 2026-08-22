@@ -1,0 +1,17 @@
+Music Converter uses the following third-party open-source components:
+
+1. qmdec 0.2.0
+   Project: https://github.com/Sophomoresty/qmdec
+   License: MIT
+   The upstream license declaration is recorded at licenses/qmdec-LICENSE.txt.
+
+2. FFmpeg / BtbN FFmpeg Builds
+   Projects: https://ffmpeg.org/ and https://github.com/BtbN/FFmpeg-Builds
+   Distributed build: N-126229-gf101fce22d-20260820
+   Build variant: Windows x64 GPL static build
+   License: GNU General Public License version 3 or later, according to the
+   included build configuration and LICENSE file.
+   The build license text is included at licenses/ffmpeg-LICENSE.txt.
+
+Music Converter itself does not provide or embed decryption keys. Users are
+responsible for using it only with files they are authorized to access.
